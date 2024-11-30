@@ -1,0 +1,35 @@
+from src.constants import *
+import os , sys
+
+DATASET_PATH = os.path.join(
+    CURRENT_DIR_KEY , 
+    DATA_DIR , 
+    DATA_DIR_KEY
+)
+
+RAW_DATASET_PATH = os.path.join(
+    CURRENT_DIR_KEY , 
+    ARTIFACT_DIR ,
+    ARTIFACT_DIR_KEY1,
+    CURRENT_TIME_STAMP,
+    RAW_DATA_DIR,
+    RAW_DATA_DIR_KEY
+)
+
+TRAIN_DATASET_PATH = os.path.join(
+    CURRENT_DIR_KEY,
+    ARTIFACT_DIR,
+    ARTIFACT_DIR_KEY1,
+    CURRENT_TIME_STAMP,
+    DATA_SPLIT_DIR,
+    DATA_SPLIT_DIR_KEY1
+)
+
+TEST_DATASET_PATH = os.path.join(
+    CURRENT_DIR_KEY,
+    ARTIFACT_DIR,
+    ARTIFACT_DIR_KEY1,
+    CURRENT_TIME_STAMP,
+    DATA_SPLIT_DIR,
+    DATA_SPLIT_DIR_KEY2
+)
