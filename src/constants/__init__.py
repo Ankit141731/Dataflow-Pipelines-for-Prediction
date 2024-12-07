@@ -5,7 +5,7 @@ def get_current_time():
     return datetime.now().strftime("%d-%m-%y-%H-%M-%S")
 
 DATA_DIR = "Data"
-DATA_DIR_KEY = "finalTrain.csv"
+DATA_DIR_KEY = "clean_data.csv"
 
 
 CURRENT_DIR_KEY = os.getcwd()
