@@ -100,7 +100,7 @@ class DataTransformation:
             input_features_test_df = test_df.drop(dropping_columns  , axis = 1)
             target_feature_test_df = test_df[target_column]
 
-           # logging.info("apply tranformation on our train and test data")
+            logging.info("apply tranformation on our train and test data")
 
             input_featues_train_array = preprocessor_obj.fit_transform(input_features_train_df)
             input_features_test_array = preprocessor_obj.transform(input_features_test_df)

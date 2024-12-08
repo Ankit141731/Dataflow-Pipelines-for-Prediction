@@ -22,6 +22,7 @@ DATA_SPLIT_DIR_KEY2 = "Test.csv"
 
 
 ARTIFACT_DIR_KEY2 = "Data_transformation"
+ARTIFACT_DIR_KEY3 = "Model_trainer"
 
 
 
