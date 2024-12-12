@@ -263,7 +263,37 @@ Feature_mapping_countries = {
 }
 
 if st.button("Submit") :
-    pass
+    User_Input = CustomClass(
+        Age,
+        Feature_mapping_Work_class[Work_class],
+        Feature_mapping_education[Education],
+        Feature_mappping_Marital_status[Marital_Status],
+        Feature_mapping_Occupation[Occupation],
+        Feature_mapping_Relationship[Relationship],
+        Feature_mapping_Race[Race],
+        Feature_mapping_sex[Sex],
+        Capital_Gain,
+        Capital_Loss,
+        Hours_per_Week,
+        Feature_mapping_countries[Native_Country]
+    
+
+    )
+
+    Feature_values = User_Input.get_data_DataFrame()
+
+    Pipeline = PredictionPipeline()
+    Prediction_value = Pipeline.predict(Feature_values)
+
+    if Prediction_value == 1:
+        st.info("Salary is More than 50 thousand dollars")
+    elif Prediction_value == 0:
+        st.warning("Salary is less than 50 thousand dollars")
+    else:
+        st.error("Try again After some time")
+
+
+
 
 
 
