@@ -7,6 +7,7 @@ st.title("Machine Learning Project")
 
 
 
+
 Age = st.slider("Select your Age" , 10 , 100)
 
 Work_class = st.selectbox("Choose your work class" ,
