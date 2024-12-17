@@ -30,7 +30,7 @@ __Prerequisites__:
 ### Steps to Run Locally:
 1. Clone this repository to your local machine:
 <div>
-    <pre>git clone https://github.com/yourusername/DataFlow-Prediction-Pipeline.git</pre>
+    <pre>git clone https://github.com/Ankit141731/DataFlow-Prediction-Pipeline.git</pre>
 </div>
 2. Navigate to the project directory:
 <div>
