@@ -45,9 +45,9 @@ To deploy using Docker, build and run the Docker container:
 2. Run the Docker container:
 `docker run -p 8501:8501 dataflow-pipeline`
 ### Usage
-Once the app is running, navigate to http://localhost:8501 to interact with the model.
-Upload your dataset or enter parameters to see the predicted outcomes.
-Visualizations will be generated to help analyze the results.
+1. Once the app is running, navigate to `http://localhost:8501` to interact with the model.
+2. Upload your dataset or enter parameters to see the predicted outcomes.
+3. Visualizations will be generated to help analyze the results.
 ### Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository, create a branch, and submit a pull request.
 
