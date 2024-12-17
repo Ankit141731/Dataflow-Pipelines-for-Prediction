@@ -54,4 +54,10 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+<div>
+    <pre>$ pip install -r requirements.txt</pre>
+    <button>Copy</button>
+</div>
+
+
 
