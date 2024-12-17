@@ -28,19 +28,23 @@ __Prerequisites__:
 * Docker (optional but recommended for deployment)
 
 ### Steps to Run Locally:
+
 1. Clone this repository to your local machine:
 <div>
     <pre>git clone https://github.com/Ankit141731/DataFlow-Prediction-Pipeline.git</pre>
 </div>
+
 2. Navigate to the project directory:
 <div>
     <pre>cd DataFlow-Prediction-Pipeline</pre>
 </div>
+
 3. Install required dependencies:
 
 <div>
     <pre>pip install -r requirements.txt</pre>
 </div>
+
 4. Run the Streamlit app:
 <div>
     <pre>streamlit run app.py</pre>
@@ -53,6 +57,7 @@ To deploy using Docker, build and run the Docker container:
 <div>
     <pre>docker build -t dataflow-pipeline .</pre>
 </div>
+
 2. Run the Docker container:
 <div>
     <pre>docker run -p 8501:8501 dataflow-pipeline</pre>
